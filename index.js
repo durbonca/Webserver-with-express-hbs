@@ -13,21 +13,21 @@ app.use(express.static('public'))
 
 app.get('/', function (req, res) {
     res.render('home', {
-        nombre: 'Fernando Herrera',
+        nombre: 'Manuel Duran - Home',
         titulo: 'Curso de Node'
     })
 })
 
 app.get('/generic', function (req, res) {
     res.render('generic', {
-        nombre: 'Fernando Herrera',
+        nombre: 'Manuel Duran - Generic',
         titulo: 'Curso de Node'
     })
 })
 
 app.get('/elements', function (req, res) {
     res.render('elements', {
-        nombre: 'Fernando Herrera',
+        nombre: 'Manuel Duran - Elements',
         titulo: 'Curso de Node'
     })
 })
